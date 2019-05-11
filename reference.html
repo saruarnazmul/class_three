@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reference Element</title>
+	<style type="text/css" media="screen">
+		body{
+		border: 2px solid orange;
+		font-family: Arial, Verdana, sans-serif;
+		}
+		h1, h2, h3, h4, h5, h6{
+			color: #6f608a;
+		font-family: arial;
+		}
+		table{
+			color: orange;
+		}
+		button{
+			background-color: #bbafd2;
+			padding: auto;
+			border: 2px dotted orange;
+		}
+	</style>
+</head>
+<body>
+	
+	<!-- headings -->
+	<h1>First heading H1 Heading are using main heading</h1>
+	<h2>Second headingThis is sub-heading with h2-h6</h2>
+	<h3>Three Heading</h3>
+	<h4>Four Heading</h4>
+	<h5>Five heading</h5>
+	<h6>Six heading</h6>
+	<!-- HTML has six "levels" of headings are end-->
+	<!-- paragraph -->
+	<p>that form a <b> self-contained</b> unit of <i>discourse</i>. <u>The</u>
+start of a paragraph is indicated by a new
+line.</p>
+<!-- superscript and subscript -->
+<p> Einsten law is Emc<sup>2</sup> and also we know that Hydrogen H <sub>2</sub>O </p>
+
+<!-- line brekar and horizontal lines -->
+
+<p> Einsten <br>law is Emc<sup>2</sup> and <hr>also we know that Hydrogen H <sub>2</sub>O </p>
+<p><strong>Beware:</strong> Pickpockets operate in this area.</p>
+<!-- now wer are talk about quoteion-->
+<blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+<p>Did you ever stop to think, and forget to startagain?</p>
+</blockquote>
+<p><abbr title="Professor">Prof</abbr> Stephen
+Hawking is a theoretical physicist and
+cosmologist.</p>
+<p><acronym title="National Aeronautics and Space
+Administration">NASA</acronym> do some crazy
+space stuff.</p>
+<p><cite>A histroy of time </cite>by stephen hakings</p>
+<p>A <dfn>Black Hole</dfn> is a region of space from
+which nothing, not even light, can escape.</p>
+<address>
+<a href="mailto:saruarhossennazmul0@gmail.com?subject=feedback" "email me">Email me</a>
+Dhaka, Kishoreganj, karimganj-2310.
+</address>
+<!--Chagne to content-->
+<p>It was the <s>Worst</s> but <ins>best</ins> idea she had ever had. </p>
+<p>Laptop Computer</p>
+<p><s>was $450</s></p>
+<p><ins>Now only one &400</ins></p>
+
+<dl>
+	<dt>Definition Term</dt>
+	<dd>Definition</dd>
+</dl>
+
+<table>
+	<caption>List for table</caption>
+	<thead>
+		<tr>
+			<th></th>
+			<th scope="col">Home start Hosting</th>
+			<th scope="col">Business start hosting</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Disk Space</th>
+			<td>250</td>
+			<td>1gb</td>
+		</tr>
+		<tr>
+			<th>Bandwith</th>
+			<td>5gb per month</td>
+			<td>50gb per month</td>
+		</tr>
+		<tr>
+			<th>Email Accounts</th>
+			<td>3</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<th>Server</th>
+			<td>Shared</td>
+			<td>VPS</td>
+		</tr>
+		<tr>
+			<th>Support</th>
+			<td>email</td>
+			<td>Email and Telephone</td>
+		</tr>
+		<tr>
+			<th>Setup</th>
+			<td>Free</td>
+			<td>Free</td>
+		</tr>
+		<tr>
+			<th>Ftp Accounts</th>
+			<td>1</td>
+			<td>5</td>
+		</tr>
+		<tfoot>
+			<tr>
+				<td colspan="" rowspan="" headers=""></td>
+			<td colspan="2" rowspan="2" headers="">Sign up now and save 10%! <button type="submit">Subscribe</button> </td>
+
+		</tr>
+		</tfoot>
+	</tbody>
+</table>
+<caption>Form</caption>
+<form action="1st html_submit" method="get" accept-charset="utf-8">
+	<p>User name: <input type="text" name="Username" size="15" maxlength="30"></p>
+	<p>Password: <input type="password" name="passwrod" size="15" required="required"></p>
+	<p>What do you think about this website</p>
+	<textarea name="Comments" maxlength="2400"></textarea>
+	<p>Select your favourite teacher</p>
+	<br>
+	<input type="radio" name="teacher" value="Ishaksir" checked="checked">Ishak sir
+	<input type="radio" name="teacher" checked="checked">Amir sir
+	<input type="radio" name="teacher">Tapan sir
+	<p>Select your favourite teacher</p>
+	<br>
+	<input type="checkbox" name="teacher" value="Ishaksir" checked="checked">Ishak sir
+	<input type="checkbox" name="teacher" checked="checked">Amir sir
+	<input type="checkbox" name="teacher">Tapan sir
+	<!-- Dropdwon menu select and option -->
+	<p>What book you are reading daily?</p>
+	<select name="book" size="">
+		<option value="Al-Quran">Al-Quran</option>
+		<option value="Text-book">Text-book</option>
+		<option value="Guide-book">Guide-book</option>
+	</select>
+	<br>
+	<!-- document input type -->
+	<input type="file" name="document"><br>
+	<input type="submit" name="Upload" value="Upload">
+	<br>
+	<p>subscribe to out email list</p>
+	<input type="text" name="useremail" placeholder="Enter your valid email">
+	<input type="submit" name="subscribe" value="subscribe"><br>
+	<label>
+		<button type="" alt="add">Add</button>
+		<input type="hidden" name="bookmark" value="lyrics"></label>
+</form>
+<label> Age:
+	<input type="text" name="age" value=""></label>
+	<br>
+	Gender:
+	<input id="female" type="radio" name="gender" value="female">
+	<label for="female">Female</label>
+	<input id="male" type="radio" name="gender" value="male">
+	<label for="male">Male</label>
+
+<!-- grouping form element -->
+<fieldset>
+	<legend>Contact detailes</legend>
+	<label>Email:<br><input type="text" name="Email" value=""></label><br>
+	<label>Mobile:<br><input type="text/submit/hidden/button/etc" name="Mobile" value=""></label><br>
+	<label>Telephone<br><input type="text/submit/hidden/button/etc" name="Telephone" value=""></label>
+</fieldset>
+<!--date picker-->
+<label for="username">Date: <input type="date" name="Date" value=""></label>
+<br>
+<label for="user"><input type="time" name="" value=""></label>
+<br>
+<input type="submit" name="submit" value="Submit">
+<br>
+<br>
+<!-- Email and url input-->
+<label><p>Enter your valid E-mail:</p><input type="email" name="eamil" value=""></label>
+<input type="submit" value="Submit"><br>
+<br>
+
+<label><p>Enter your valid URL:</p><input type="url" name="url" value=""></label>
+<input type="submit" value="Submit">
+<br>
+<input type="search" name="" value="" placeholder="enter keyword">
+<input type="submit" name="" value="search">
+</body>
+
+</html>
